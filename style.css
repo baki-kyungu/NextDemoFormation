@@ -24,13 +24,17 @@
   --fmlInter: "Inter", sans-serif;
 }
 
+body {
+  background-color: var(--fts__white);
+}
+
 header .nav--header {
   height: 80px;
   background-color: var(--fts__white);
   display: flex;
   margin: 0 auto;
   border-bottom: 1px solid var(--ftGray);
-  width: 460px;
+  width: 480px;
 }
 header .nav--header img {
   width: 20px;
@@ -47,21 +51,48 @@ header .nav--header .ulNavContainerLeft {
 header .nav--header .ulNavContainerLeft li {
   list-style: none;
   padding: 30px 0 0 10px;
-  cursor: pointer;
+}
+header .nav--header .ulNavContainerLeft li a {
+  text-decoration: none;
+  color: #000;
+}
+header .nav--header .ulNavContainerLeft li a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #2596be;
+          text-decoration-color: #2596be;
+  text-decoration-thickness: 3px;
+}
+header .nav--header .ulNavContainerLeft .forum {
+  visibility: hidden;
+  display: none;
+}
+header .nav--header .ulNavContainerLeft .blog {
+  visibility: hidden;
+  display: none;
 }
 header .nav--header .ulNavContainerRight {
   width: 40%;
   display: flex;
-  margin-right: 10px;
+  margin-right: auto;
 }
 header .nav--header .ulNavContainerRight li {
   list-style: none;
-  padding: 30px 30px 0 50px;
+  padding: 30px 10px 0 60px;
   cursor: pointer;
+}
+header .nav--header .ulNavContainerRight .listTimes .uil-times {
+  display: none;
+}
+header .nav--header .ulNavContainerRight div {
+  display: none;
+}
+
+span {
+  color: var(--ftsBlue);
 }
 
 main {
-  width: 460px;
+  width: 480px;
   margin: auto;
 }
 main .motorWrd {
@@ -381,6 +412,7 @@ main .secondSection .partTake .seeVid p {
   text-align: center;
   font-size: 20px;
   margin: 20px 40px;
+  cursor: pointer;
 }
 main .secondSection .partTake .downloadVid {
   height: 80px;
@@ -394,6 +426,7 @@ main .secondSection .partTake .downloadVid p {
   font-size: 20px;
   width: auto;
   margin: 20px 40px;
+  cursor: pointer;
 }
 main .secondSection .partTake .downloadSrc {
   height: 80px;
@@ -406,6 +439,7 @@ main .secondSection .partTake .downloadSrc p {
   text-align: center;
   font-size: 20px;
   margin: 20px 40px;
+  cursor: pointer;
 }
 main .secondSection .partTake .advanced {
   height: 80px;
@@ -503,13 +537,13 @@ main .thirdSection .secondBlog .simdDay {
   flex-direction: row-reverse;
 }
 main .thirdSection .secondBlog .simdDay img {
-  width: 30%;
-  margin-top: 30px;
+  width: 20%;
+  margin-top: 10px;
 }
 main .thirdSection .secondBlog .simdDay .sdayClic {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
   padding-right: 10px;
 }
 main .thirdSection .secondBlog .simdDay .sdayClic h3 {
@@ -533,6 +567,7 @@ main .thirdSection .secondBlog .simdDay .sdayClic h6 i {
 main .thirdSection .thirdBlog {
   display: flex;
   flex-direction: column;
+  margin: 20px;
 }
 main .thirdSection .thirdBlog .recTech {
   display: flex;
@@ -655,28 +690,25 @@ footer .fFooter .socMed ul li {
 }
 footer .fFooter .socMed ul li .uil-rss {
   color: #ffdd00;
-  font-size: 30px;
-  cursor: pointer;
 }
 footer .fFooter .socMed ul li .uil-github {
   color: var(--fts-black);
-  font-size: 30px;
-  cursor: pointer;
 }
 footer .fFooter .socMed ul li .uil-youtube {
   color: var(--ftsRed);
-  font-size: 30px;
-  cursor: pointer;
 }
 footer .fFooter .socMed ul li .uil-twitter {
   color: var(--ftsBlue);
-  font-size: 30px;
-  cursor: pointer;
 }
 footer .fFooter .socMed ul li .uil-linkedin {
   color: blueviolet;
+}
+footer .fFooter .socMed ul li .uil {
   font-size: 30px;
   cursor: pointer;
+}
+footer .fFooter .socMed ul li .uil:hover {
+  opacity: 50%;
 }
 footer .sFooter {
   margin-top: 30px;

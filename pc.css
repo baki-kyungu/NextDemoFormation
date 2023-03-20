@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@media screen and (min-width: 1250px) and (orientation: landscape) {
+  /* … */
+  header .nav--header {
+    width: 1250px;
+  }
+  header .nav--header .ulNavContainerRight {
+    margin-right: 30px;
+  }
+  header .nav--header .ulNavContainerRight .uil-bars {
+    display: none;
+  }
+  header .nav--header .ulNavContainerRight .uil-search {
+    margin-left: 240px;
+    margin-right: 0;
+  }
+  header .nav--header .ulNavContainerRight div {
+    display: flex;
+    width: auto;
+    margin-left: 30px;
+  }
+  header .nav--header .ulNavContainerRight div li {
+    padding-left: 10px;
+  }
+  header .nav--header .ulNavContainerRight li {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header .nav--header .ulNavContainerRight li a {
+    text-decoration: none;
+    color: #000;
+  }
+  footer {
+    width: 1250px;
+    flex-direction: row;
+  }
+  footer .fFooter {
+    margin-left: 70px;
+  }
+  footer .fFooter p {
+    width: 400px;
+    font-size: 14px;
+  }
+  footer .sFooter {
+    margin-top: 0;
+  }
+  footer .sFooter .tweetsParag blockquote p {
+    width: 400px;
+    font-size: 14px;
+  }
+  footer .sFooter h2 {
+    margin-bottom: 0;
+  }
+  footer .tFooter {
+    margin-top: 0;
+  }
+  footer .tFooter h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  footer .tFooter .socialMed ul li {
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=pc.css.map */

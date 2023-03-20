@@ -1,0 +1,108 @@
+.sectionForm{
+    height: auto;
+
+    .form{
+
+        height: 700px;
+        width: 400px;
+        border: 1px solid rgb(31, 30, 30);
+        margin: 200px auto;
+        border-radius: 5px;
+
+        .lgContainer{
+
+            height: 60px;
+            width: 100px;
+            margin: 20px auto;
+
+            img{
+                width: 60px;
+                height: 60px;
+                margin-left: 20px;
+            }
+
+        }
+
+        .wlc{
+            margin-top: 50px;
+            h2{
+                text-align: center;
+                
+            }
+
+            p{
+                text-align: center; 
+                margin-top: 20px;
+            }
+        }
+
+        .inputs{
+
+            display: flex;
+            flex-direction: column;
+
+            input{
+
+                height: 50px;
+                width: 320px;
+                margin: 20px auto;
+                border-radius: 4px;
+                border: 1px solid gray;
+
+                placeholder{
+                    color: grey;
+                }
+            }
+
+            .btnSmt{
+
+                height: 50px;
+                width: 320px;
+                margin: 20px auto;
+                border-radius: 4px;
+                background-color: #d53c42;
+                border: 1px solid white;
+                color: white;
+                font-size: 18px;
+
+            }
+
+            .wdFgt{
+                text-decoration: none;
+                color: #2596be;
+                font-size: 18px;
+                margin: 10px 40px;
+            }
+
+            .nonCount{
+                text-decoration: none;
+                font-size: 16px;
+                margin: 10px 40px;
+                color: black;
+
+                span{
+                    color: #2596be; 
+                }
+            }
+
+            .google{
+
+                text-decoration: none;
+                font-size: 18px;
+                margin: 30px 40px;
+                padding: auto;
+                color: black;
+                border: 1px solid gray;
+                border-radius: 5px;
+                height: 50px;
+                text-align: center;
+
+                .uil-google{
+
+                    color: #2596be;
+                }
+            }
+        }
+   
+    }
+}
